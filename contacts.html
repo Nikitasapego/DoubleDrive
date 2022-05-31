@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Музыкальная кавер группа в Актобе. Музыканты на свадьбу, на корпоратив, на мероприятие, на праздник в Актобе. Live Band DoubleDrive кавер-группа.">
+    <meta name="keywords" content="Музыканты, музыканты в Актобе, музыкальная группа, музыкальная группа в Актобе, лайв бэнд, лайв бэнд в Актобе, live band, live band в Актобе, группа на корпоратив, группа на корпоратив в Актобе, группа на свадьбу, группа на свадьбу в Актобе, группа на мероприятие, группа на мероприятие в Актобе, музыка на свадьбу, музыка на свадьбу в Актобе, doubledrive, liveband, живая музыка, живой звук, coverband, aktobeliveband, живая музыка в Актобе">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="assets/images/icons/Logo.ico" type="image/x-icon">
+    
+    <title>Live Band DoubleDrive</title>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script></head>
+
+<body class="">
+
+    <div class="page" id="page">
+        <!--Header-->
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__side">
+                    <a href="index.html" class="header__logo">
+                        <img class="logo__img" src="assets/images/Logo.png" alt="">
+                    </a>
+        
+                    <nav class="nav" id="nav">
+                        <a href="index.html" class="nav__link">Главная</a>
+                        <!--<a href="about.html" class="nav__link">О нас</a>-->
+                        <a href="organization.html" class="nav__link">Организаторам</a>
+                        <a href="contacts.html" class="nav__link">Контакты</a>
+                    </nav>
+                    <button class="nav__button" id="navButton">
+                        <img src="assets/images/icons/arrow-down-sign-to-navigate.svg" alt="">
+                    </button>
+                </div>
+        
+                <div class="header__side">
+                    <div class="header__location">
+                        <div class="location__icon">
+                            <img src="assets/images/icons/location.svg" alt="">
+                        </div>
+                        <div class="location__text">Актобе (Казахстан)</div>
+                    </div>
+        
+                    <button class="burger" id="sidebarToggle" title="Ткнуть для открытия меню">
+                        <span class="">Menu</span>
+                    </button>
+                </div>
+        
+            </div>
+        
+            <div class="sidebar__menu">
+                <a href="video.html" class="sidebar__menu-link">Видео</a>
+                <a href="gallery.html" class="sidebar__menu-link">Галерея</a>
+                <a href="dress.html" class="sidebar__menu-link">Костюмы</a>
+                <a href="partners.html" class="sidebar__menu-link">Партнёры</a>
+                <a href="contacts.html" class="sidebar__menu-link">Написать</a>
+            </div>
+        
+        </header>
+        
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__content">
+                        <div class="contacts__title">Выберите удобный способ связи с нами:</div>
+                        <div class="contacts__connection">
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/phone-call.svg" alt="">
+                                <a href="tel:+77018916664">Позвонить</a>
+                            </div>
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/whatsapp.svg" alt="">
+                                <a href="https://wa.me/77782692707" target="_blank">Whatsapp</a>
+                            </div>
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/telegram.svg" alt="">
+                                <a href="http://t.me/NikitaSpg" target="_blank">Telegram</a>
+                            </div>
+                        </div>
+        
+                        <div class="contacts__title">Или заполните форму и мы с Вами свяжемся:</div>
+                        <form action="send.php" method="post" id="form" class="contacts__form">
+                            <input name="user_name" type="text" class="contacts__input" placeholder="Ваше имя" required>
+                            <input name="user_phone" type="text" class="contacts__input" placeholder="Ваш телефон" required>
+                            <button type="submit" class="contacts__btn">Отправить</button>
+                            <div id="result"></div>
+                        </form>
+        
+                        <div class="contacts__title">Наши контактные данные:</div>
+                        <div class="contacts__connection">
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/map.svg" alt="">
+                                <span>г.Актобе, пр.Победы 31</span>
+                            </div>
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/phone-call.svg" alt="">
+                                <a href="tel:+77018916664">+7(701)891-66-64</a>
+                            </div>
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/whatsapp.svg" alt="">
+                                <a href="https://wa.me/77782692707" target="_blank">+7(778)269-27-07</a>
+                            </div>
+                            <div class="contacts__connection-item">
+                                <img src="assets/images/icons/mail.svg" alt="">
+                                <a href="mailto:nirva19@yandex.ru">info@doubledriveband.kz</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="contacts__map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae289addc20650622d2825a8a0e8fc8c40fdacfe01fbaa9adc8294e00f0999784&amp;width=100%25&amp;height=570&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <footer class="footer">
+            <div class="footer__social">
+                <a href="https://wa.me/77018916664" class="footer__social-link" target="_blank" title="Наш Whatsapp">
+                    <img src="assets/images/icons/whatsapp.svg" alt="whatsapp">
+                </a>
+                <a href="https://www.instagram.com/double_drive_band/" class="footer__social-link" target="_blank" title="Наш Instagram">
+                    <img src="assets/images/icons/instagram.svg" alt="instagram">
+                </a>
+                <a href="https://www.youtube.com/watch?v=Phbiy_DafPE" class="footer__social-link" target="_blank" title="Наш Youtube">
+                    <img src="assets/images/icons/youtube.svg" alt="youtube">
+                </a>
+            </div>
+        
+            <div class="footer__video">
+                <a href="#" class="footer__video-link" data-fancybox data-src="#modalPromo" title="Смотреть промо">
+                    <img src="assets/images/icons/play-button.svg" alt="">
+                    <span>Смотреть видео</span>
+                </a>
+            </div>
+        </footer>
+
+        <div class="modal__content" id="modalPromo">
+            <div class="modal__video-shadow">
+                <div class="modal__video">
+                    <iframe src="https://www.youtube.com/embed/Phbiy_DafPE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal__content" id="modalArowana">
+            <div class="modal__video-shadow">
+                <div class="modal__video">
+                    <iframe src="https://www.youtube.com/embed/cP1IHs_w3ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+
+    <script src="assets/js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+</body>
+
+</html>
