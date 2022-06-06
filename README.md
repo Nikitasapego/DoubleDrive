@@ -2,7 +2,7 @@
 
 Вёрстка сайта [doubledriveband.kz](https://nikitasapego.github.io/DoubleDrive/) и посадка на CMS WordPress
 
-#html #css #javascript #php
+#html #css #javascript #php #wordpress
 
  - Имеется адаптив до 320px;
  - Страница организаторам, главная, фотогалерея, видеогалерея, контакты, партнёры, одежда;
